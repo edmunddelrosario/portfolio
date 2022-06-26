@@ -1,0 +1,107 @@
+/*Global Styles*/
+body {
+    font-family: Arial Narrow;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+}
+
+/*element style*/
+
+section {
+    margin: 0px;
+    padding: 0px;
+}
+
+/*hero banner image*/
+#HeroBanner {
+  background-image: url(/media/HeroBanner.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 90vh;
+}
+
+.name-title {
+    color: #f6d04d;
+    }
+  
+  .name-title::before {
+    content:"";
+    animation-duration: 10s;
+    animation-name: change;
+    animation-iteration-count: infinite;    
+  }
+
+  @keyframes change {
+    0% {opacity:0; content:"EDMUND DEL ROSARIO"}
+    15% {opacity:1; content:"EDMUND DEL ROSARIO"}
+    30% {opacity:0; content:"EDMUND DEL ROSARIO"}
+    31% {opacity:0; content:"A WORDPRESS DEVELOPER"}
+    45% {opacity:1; content:"A WORDPRESS DEVELOPER"}
+    70% {Opacity:0; content:"A WORDPRESS DEVELOPER"}
+    71% {opacity:0; content:"A DIGITAL MARKETER"}
+    85% {Opacity:1; content:"A DIGITAL MARKETER"}
+    100% {Opacity:0; content:"A DIGITAL MARKETER"}
+  }
+
+  /*grid class*/
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap:10px;
+    align-content: center;
+  }
+
+  .gallery_img_1 {
+    background-image: url(/media/Bus-trracker-Thumbnail.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    object-fit: contain;
+    height: 50vh;    
+  }
+  
+  .gallery_img_2 {
+    background-image: url(/media/eye-exercise.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    object-fit: contain;
+    height: 50vh; 
+  }  
+
+  .gallery_img_3 {
+    background-image: url(/media/PacMen.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    object-fit: contain;
+    height: 50vh; 
+  } 
+
+  /*footer styles*/
+  .footer-image {
+    background-image: url(/media/textured-background.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 40vh;
+  }
+
+
+  .footer {
+    padding: 55px;
+    text-align: center;
+    color: white; 
+  }
+
+  /*About Me Page Styles*/
+  @media (min-width: 576px) {
+    .h-sm-100 {
+        height: 100%;
+    }
+}
+
+  
+
+  
