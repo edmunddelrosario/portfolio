@@ -15,13 +15,12 @@
   
   <body>
     <!--Menu Header-->
-    <nav class="navbar navbar-dark fixed-top py-3">
-      <div class="container px-0">
+    <nav class="navbar fixed-top py-0">
         <p>
           <button
             type="button"
             onclick="changeStyle()" 
-            class="navbar-toggler" 
+            class="navbar-toggler navbar-dark ms-5 mt-3" 
             data-bs-target="#navmenu"
             data-bs-toggle="collapse" 
             aria-controls="navmenu" 
@@ -33,24 +32,23 @@
         </p>
           
         <div class="collapse navbar-collapse" id="navmenu">
-          <div class="card card-body" style="width: 300px;">
-            <ul class="navbar-nav mx-auto my-2 px-2">
-              <li class="nav-item"><a class="nav-link" href="#">Home</a>
-              <li class="nav-item"><a class="nav-link" href="#">About</a>
+          <div class="card card-body px-3 py-2" style="width: 300px;">
+            <ul class="navbar-nav navbar-light mx-auto px-2">
+              <li class="nav-item"><a class="nav-link" href="https://edmunddelrosario.github.io/portfolio/index.html">Home</a>
+              <li class="nav-item"><a class="nav-link" href="https://edmunddelrosario.github.io/portfolio/about.html">About</a>
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
                     Projects
                 </a>
                  
                 <ul class="dropdown-menu navbar-dark" aria-labelledby="dropdownMenuLink">
-                  <li><a class="dropdown-item" href="#">PacMen Code Excercise</a></li>
+                  <li><a class="dropdown-item" href="https://edmunddelrosario.github.io/PacMen">PacMen Code Excercise</a></li>
                   <li><a class="dropdown-item" href="https://edmunddelrosario.github.io/Eye-Exercise/">Moving Eye Excercise</a></li>
                   <li><a class="dropdown-item" href="https://edmunddelrosario.github.io/Real-Time-Bus-Tracker/">Real Bus Tracker Excercise</a></li>
                 </ul>
             </ul>
           </div>
         </div>
-      </div>
     </nav>
       
      <!--Hero Banner-->
@@ -143,11 +141,10 @@
 
       window.addEventListener('scroll', function () {
         if (window.pageYOffset > 100) {
-          nav.classList.add('bg-light', 'shadow');
-          nav.classList.replace('navbar-dark','navbar-light');
+          nav.classList.add('bg-light', 'navbar-expand', 'shadow');
           } else {
           nav.classList.remove('bg-light', 'shadow');
-          nav.classList.replace('navbar-light','navbar-dark');
+          nav.classList.remove('navbar-expand');
           }
       });
     </script>
