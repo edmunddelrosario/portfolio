@@ -8,20 +8,23 @@ p {
   padding: 0;
 }
 
-.card {
-  --bs-border-color-translucent: rgba(255, 255, 255, 0)!important;
-}
-
 /*element style*/
-
 section {
     margin: 0px;
     padding: 0px;
 }
 
+.card {
+  --bs-border-color-translucent: rgba(255, 255, 255, 0)!important;
+}
+
 /*hero banner image*/
-.herobanner {
-  
+#banner {
+  background-image: url(/media/herobanner.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 90vh;
 }
 
 .name-title {
@@ -100,7 +103,7 @@ section {
     .h-sm-100 {
         height: 100%;
     }
-}
+  }
 
   
 
