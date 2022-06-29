@@ -20,7 +20,7 @@ section {
 
 /*hero banner image*/
 #banner {
-  background-image: url(./media/herobanner.jpg);
+  background-image: url(/media/herobanner.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
