@@ -50,6 +50,12 @@ section {
     100% {Opacity:0; content:"A DIGITAL MARKETER"}
   }
 
+  /*buttons*/
+  .buttons {
+    background-color: #f6d04d;
+
+  }
+
   /*grid class*/
   .grid-container {
     display: grid;
