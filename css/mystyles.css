@@ -59,7 +59,7 @@ section {
   /*grid class*/
   .grid-container {
     display: grid;
-    grid-template-columns: repeat(auto-fit minmax(320px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(420px, 1fr));
     grid-gap:10px;
     align-content: center;
   }
