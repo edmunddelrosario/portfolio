@@ -20,7 +20,7 @@ section {
 
 /*hero banner image*/
 #banner {
-  background-image: url(/media/herobanner.jpg);
+  background-image: url(portfolio/media/herobanner.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -65,7 +65,7 @@ section {
   }
 
   .gallery_img_1 {
-    background-image: url(/media/Bus-trracker-Thumbnail.png);
+    background-image: url(portfolio/media/Bus-trracker-Thumbnail.png);
     background-position: center;
     background-repeat: no-repeat;
     object-fit: contain;
@@ -73,7 +73,7 @@ section {
   }
   
   .gallery_img_2 {
-    background-image: url(/media/eye-exercise.png);
+    background-image: url(portfolio/media/eye-exercise.png);
     background-position: center;
     background-repeat: no-repeat;
     object-fit: contain;
@@ -81,7 +81,7 @@ section {
   }  
 
   .gallery_img_3 {
-    background-image: url(/media/PacMen.png);
+    background-image: url(portfolio/media/PacMen.png);
     background-position: center;
     background-repeat: no-repeat;
     object-fit: contain;
@@ -90,7 +90,7 @@ section {
 
   /*footer styles*/
   .footer-image {
-    background-image: url(/media/textured-background.jpg);
+    background-image: url(portfolio/media/textured-background.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
