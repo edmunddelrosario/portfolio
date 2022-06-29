@@ -20,12 +20,8 @@ section {
 }
 
 /*hero banner image*/
-#HeroBanner {
-  background-image: url(./media/HeroBanner.jpg);
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  height: 90vh;
+.herobanner {
+  
 }
 
 .name-title {
