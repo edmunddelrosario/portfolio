@@ -1,0 +1,112 @@
+/*Global Styles*/
+body {
+  font-family: calibri, sans-serif;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+}
+
+/*element style*/
+section {
+  margin: 0px;
+  padding-top: 85px;
+  padding-bottom: 25px;
+}
+
+main {
+  background: linear-gradient(
+    180deg,
+    #011a0f 0%,
+    #112240  85%
+  );
+  color: white;
+} 
+
+h3 {
+  color:aquamarine;
+}
+
+span {
+  color:aquamarine;
+}
+
+/*navbar style*/
+.navbar-dark {
+  --bs-navbar-color: #ffffff !important;
+  --bs-navbar-hover-color: #64ffda !important;
+}
+
+.bg-dark {
+  background-color:  #112240 !important;
+}
+
+.navbar-collapse {
+  margin-top: 10px;
+  padding-left: 25px;
+}
+
+.card {
+  --bs-card-bg: #112240;
+}
+
+/*hero banner image*/
+.hero-banner {
+  height: 100vh;
+  position: relative;
+}
+
+video {
+  object-fit: cover;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+/*About Style*/
+.about-cards {
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  display: grid; 
+  gap: 1rem;
+}
+
+.card-item {
+  background-color: #8892b0;
+  padding: .5rem 1rem;
+  border-radius: 5px;
+}
+
+/*Experience Style*/
+.accordion-button:not(.collapsed) {
+  color: #fafafa !important;
+  background-color: #8892b0 !important;
+}
+
+/*Work & Experience Style*/
+.work-cards {
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  display: grid; 
+  gap: 1rem;
+}
+
+.card-item-work {
+  padding: .5rem;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+}
+
+.card-body {
+  background-color: #172b4f;
+}
+
+/*About Me Page Styles*/
+@media (min-width: 576px) {
+  .h-sm-100 {
+    height: 100%;
+  }
+}
+
+/*media Queries*/
